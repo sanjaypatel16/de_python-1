@@ -66,7 +66,7 @@ def testing_scope():
         x=150
         print(x, y, z, favorite_number)
         print(locals())
-        #y="doggy"
+                # y="doggy"
         return x
     x= new_local_scope()
     print(x)
@@ -76,7 +76,7 @@ def testing_scope():
 cat= testing_scope()
 
 
-print(help(print))
+print("print")
 
 #I am adding a test comment
 
