@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import re
 
-tree= ET.parse('movies.xml')
+tree= ET.parse('Users\sanja\2023_data_engeering_sanjay\dep_semmi\de_python-1\movies.xml')
 root= tree.getroot()
 print(root)
 print(root.tag)
@@ -81,4 +81,4 @@ dec1990s= root.find("./genre[@category='Action']/decade[@years='1990s']")
 dec1990s.remove(xmen)
 print(ET.tostring(action, encoding='utf8').decode('utf8'))
 
-tree.write("movies.xml")
+tree.write("Users\sanja\2023_data_engeering_sanjay\dep_semmi\de_python-1\movies.xml")

@@ -38,7 +38,7 @@
                <description>WhAtEvER I Want!!!?!</description>
             </movie>
         </decade>    
-    <decade years="2000s"><movie favorite="False" title="X-Men">
+        <decade years="2000s"><movie favorite="False" title="X-Men">
                <format multiple="Yes">dvd, digital</format>
                <year>2000</year>
                <rating>PG-13</rating>
